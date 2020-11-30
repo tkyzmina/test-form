@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="modal">
+
+        <div class="modal__intro">
+            <h2>Welcome Page</h2>
+            <p>Sign in to continue access pages</p>
+        </div>
+
+        <div class="modal__form">
+            <div class="modal1"></div>
+            <div class="modal2"></div>
+            <div class="modal3"></div>
+
+            <div class="modal__form-header">
+                <h1>Sign In</h1>
+                <p>Sign in to continue access pages</p>
+            </div>
+
+            <form class="form" action="" method="POST">
+                <label>
+                    <input type="email" placeholder="Email Address" autocomplete="off" data-validate-field="email"
+                        name="email" id="email">
+                </label>
+
+                <label>
+                    <input type="password" placeholder="Password" autocomplete="off" data-validate-field="password"
+                        name="password" id="password">
+                </label>
+
+                <button class="button" type="submit">
+                    <svg width="15" height="26" fill="none" viewBox="0 0 15 26">
+                        <defs />
+                        <path fill="#fff" fill-rule="evenodd"
+                            d="M14.742 12.4A.828.828 0 0115 13a.828.828 0 01-.258.6L2.732 25.74a.81.81 0 01-.593.26.81.81 0 01-.593-.26L.258 24.436a.828.828 0 01-.258-.6c0-.225.086-.425.258-.599L10.387 13 .257 2.762a.828.828 0 01-.257-.6c0-.225.086-.425.258-.599L1.546.261A.81.81 0 012.14 0a.81.81 0 01.593.26l12.01 12.14z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    CONTINUE</button>
+            </form>
+
+            <div class="modal__socials">
+                <p>or Connect with Social Media</p>
+                <a class="button button--twitter" href="#">
+                    <svg width="31" height="25" fill="none">
+                        <path
+                            d="M27.791 6.25c.04.16.06.42.06.781 0 2.885-.706 5.67-2.119 8.354-1.453 2.844-3.491 5.108-6.115 6.79C16.751 24.058 13.462 25 9.748 25 6.196 25 2.947 24.058 0 22.175c.444.04.949.06 1.514.06 2.946 0 5.59-.9 7.931-2.704-1.412 0-2.654-.41-3.723-1.232-1.07-.821-1.807-1.853-2.21-3.095.403.04.787.06 1.15.06.565 0 1.13-.06 1.695-.18-1.453-.32-2.664-1.062-3.632-2.223-.97-1.162-1.454-2.484-1.454-3.967v-.12c.889.52 1.837.801 2.846.841A7.019 7.019 0 012.06 7.332a6.026 6.026 0 01-.788-3.035c0-1.102.303-2.154.909-3.155a17.505 17.505 0 005.782 4.687 17.702 17.702 0 007.296 1.923 8.698 8.698 0 01-.121-1.442 6.22 6.22 0 01.847-3.155A6.198 6.198 0 0118.285.841 6.176 6.176 0 0121.434 0c.928 0 1.786.18 2.573.54.787.361 1.483.842 2.089 1.443A12.995 12.995 0 0030.152.481c-.484 1.482-1.412 2.644-2.785 3.485 1.211-.16 2.422-.5 3.633-1.021a13.917 13.917 0 01-3.209 3.305z"
+                            fill="#fff" />
+                    </svg>
+                    Sign In With Twitter</a>
+
+                <a class="button button--fb" href="#">
+                    <svg width="16" height="31" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M15.91.221v4.862h-2.89c-1.056 0-1.768.22-2.137.663-.368.441-.552 1.104-.552 1.988v3.48h5.396l-.719 5.452h-4.677v13.977H4.696V16.666H0v-5.451h4.696V7.2c0-2.283.638-4.054 1.915-5.312C7.888.629 9.588 0 11.712 0c1.805 0 3.204.074 4.199.221z"
+                            fill="#fff" /></svg>
+                    Sign In With Facebook
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="just-validate.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
