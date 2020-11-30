@@ -93,7 +93,7 @@ button[type=submit] svg {
     content: "";
     top: 11.73%;
     right: 8.8%;
-    background-image: url("/shopping_cart.svg");
+    background-image: url("shopping_cart.svg");
 }
 
 .modal__intro h2 {
